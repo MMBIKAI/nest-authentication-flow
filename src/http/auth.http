@@ -1,0 +1,12 @@
+POST http://localhost:3009/auth-v2/login
+Content-Type: application/json
+
+{
+    "login": "Alice",
+    "pass": "topsecret"
+}
+
+###
+
+GET http://localhost:3009/auth-v2/me
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoiQWxpY2UiLCJpYXQiOjE3MzM3NDM2MDUsImV4cCI6MTczMzgzMDAwNX0.fqJZKrU7sEMR2imWyp47lTZCn-Q3cZZAivet4n73RpY
